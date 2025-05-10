@@ -8,7 +8,7 @@ const Header = ({ title }) => {
   const [showDropdown, setShowDropdown] = useState(false);
 
   return (
-    <header className="bg-gradient-to-r from-red-400 to-red-500 text-white shadow-lg">
+    <header className="bg-gradient-to-r from-red-400 to-blue-500 text-white shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
